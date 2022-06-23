@@ -1,0 +1,43 @@
+#header {
+    background-color: aqua;
+    text-align: center;
+    padding: 3rem;
+    align-content: center;
+}
+
+#main {
+    background-color:lightgray;
+}
+
+#footer {
+    background-color: yellow;
+    padding: 3rem;
+}
+
+#guest-list {
+    background-color: green;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    float: right;
+    width: 25%;
+}
+
+#park-areas {
+    background-color: blueviolet;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.park-card {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+#list-of-park-areas {
+    background-color: brown;
+    display: flex; flex-flow: wrap;
+}
