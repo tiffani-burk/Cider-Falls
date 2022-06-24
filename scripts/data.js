@@ -11,55 +11,55 @@ const database = {
     },
     {
         id: 2,
-        lastName: "Joey",
+        firstName: "Joey",
         lastName: "Tribbiani",
         park_area_id: 1
     },
     {
         id: 3,
-        lastName: "Gunther",
+        firstName: "Gunther",
         lastName: "the Coffee guy",
         park_area_id: 6
     },
     {
         id: 4,
-        lastName: "Mike",
+        firstName: "Mike",
         lastName: "Hannagan",
         park_area_id: 2
     },
     {
         id: 5,
-        lastName: "Chloe",
+        firstName: "Chloe",
         lastName: "the Copy Girl",
         park_area_id: 5
     },
     {
         id: 6,
-        lastName: "Pheobe",
+        firstName: "Pheobe",
         lastName: "Buffet",
         park_area_id: 1
     },
     {
         id: 7,
-        lastName: "Rachel",
+        firstName: "Rachel",
         lastName: "Green",
         park_area_id: 6
     },
     {
         id: 8,
-        lastName: "Chandler",
+        firstName: "Chandler",
         lastName: "Bing",
         park_area_id: 6
     },
     {
         id: 9,
-        lastName: "Ross",
+        firstName: "Ross",
         lastName: "Gellar",
         park_area_id: 3
     },
     {
         id: 10,
-        lastName: "Monica",
+        firstName: "Monica",
         lastName: "Gellar",
         park_area_id: 1
     }
@@ -167,8 +167,20 @@ const database = {
 ]
 }
 
-//create functions to export this data in the form of objects
-//exporting guest objects
+//create functions to export this data in the form of an array of objects
+
 export const getGuests = () => {
     return database.guests.map(guest => ({...guest}))
+}
+
+export const getParkAreas = () => {
+    return database.parkAreas.map(parkArea => ({...parkArea}))
+}
+
+export const getServices = () => {
+    return database.services.map(service => ({...service}))
+}
+
+export const getParkAndServiceJoinTable = () => {
+    return database.joinTableForServicesAndParkAreas.map(joinTableForServiceAndArea => ({...joinTableForServiceAndArea}))
 }
