@@ -137,32 +137,92 @@ const database = {
     joinTableForServicesAndParkAreas: [{
         id:1,
         parkId: 1,
-        serviceId: ["1, 2, 3, 4"]   //?? assigning multiple services to the key serviceId
+        serviceId: 1
+    },
+    {
+        id:1,
+        parkId: 1,
+        serviceId: 2
+    },
+    {
+        id:1,
+        parkId: 1,
+        serviceId: 3
+    },
+    {
+        id:1,
+        parkId: 1,
+        serviceId: 4
     },
     {
         id: 2,
         parkId: 2,
-        serviceId: ["4, 5, 6"]
+        serviceId: 4
+    },
+    {
+        id: 2,
+        parkId: 2,
+        serviceId: 5
+    },
+    {
+        id: 2,
+        parkId: 2,
+        serviceId: 6
     },
     {
         id: 3,
         parkId: 3, 
-        serviceId: ["7, 8, 9"]
+        serviceId: 7
+    },
+    {
+        id: 3,
+        parkId: 3, 
+        serviceId: 8
+    },
+    {
+        id: 3,
+        parkId: 3, 
+        serviceId: 9
     },
     {
         id: 4,
         parkId: 4,
-        serviceId: ["5, 9"]
+        serviceId: 5
+    },
+    {
+        id: 4,
+        parkId: 4,
+        serviceId: 9
     },
     {
         id: 5,
         parkId: 5,
-        serviceId: ["1, 2, 3"]
+        serviceId: 1
+    },
+    {
+        id: 5,
+        parkId: 5,
+        serviceId: 2
+    },
+    {
+        id: 5,
+        parkId: 5,
+        serviceId: 3
     },
     {
         id: 6,
         parkId: 6,
-        serviceId: ["4, 5, 10"]
+        serviceId: 4
+    },
+    {
+        id: 6,
+        parkId: 6,
+        serviceId: 5
+    },
+    {
+        id: 6,
+        parkId: 6,
+        serviceId: 10
     }
 ]
 }

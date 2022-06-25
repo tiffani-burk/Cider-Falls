@@ -18,4 +18,3 @@ export const AreasOfPark = () => {
 
 //AreasOfPark is returning a list of the area names of the park
 
-//PROBLEM!! THIS LIST IS ONLY RETURNING ONE PARK AREA, INSTEAD OF A LIST OF ALL THE PARK AREAS. 
