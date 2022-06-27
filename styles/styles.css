@@ -10,17 +10,21 @@
 }
 
 #footer {
-    background-color: yellow;
+    background-color: lightcoral;
     padding: 3rem;
 }
 
 #guest-list {
-    background-color: green;
+   border: solid black 4px;
     padding: 1rem;
-    margin: 1rem;
+    margin: 5rem 1rem 1rem 1rem;
     text-align: center;
     float: right;
     width: 25%;
+}
+
+.guestName {
+    line-height: 300%;
 }
 
 #parkareas {
@@ -35,9 +39,11 @@
     width: 20rem;
     height: 20rem;
     margin: 1rem;
+    padding: 1rem;
 }
 
 .list-of-park-areas {
     background-color:darkblue;
     display: flex; flex-flow: wrap;
 }
+

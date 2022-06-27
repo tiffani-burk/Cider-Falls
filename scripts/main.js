@@ -1,6 +1,6 @@
 import { guestList } from "./guests.js";
 import { AreasOfPark } from "./parkareas.js";
-import { serviceList } from "./services.js";
+
 //import the guestList function 
 
 //This is my main script file that is linked to my html file. 
@@ -18,11 +18,8 @@ const mainHTML  =
 <section id="park-areas">
 <h2>Park Areas</h2>
 <h3><em>Explore by direction</em></h3>
-<div class="list-of-park-areas"<div
+<div class="list-of-park-areas">
 ${AreasOfPark()}
-</div>
-<div>
-${serviceList()}
 </div>
 </section>
 `

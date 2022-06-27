@@ -1,4 +1,7 @@
 import { getParkAreas } from "./data.js";
+import { serviceList } from "./services.js";
+
+
 //import park area data from the database, in form of array of objects
 
 //invoke the function and store value to variable
@@ -10,7 +13,11 @@ export const AreasOfPark = () => {
     let html = "<ul>"
 
     for (const area of parkAreas) {
-        html += `<li class="park-card" id="park_area--${area.id}">${area.nameOfParkArea}</li>`
+        html += `<li class="park-card" id="park_area--${area.id}">${area.nameOfParkArea}  <br>
+        <h4> Services</h4>
+        <br>
+        ${serviceList(area.id)}
+        </li>`
     }
     html += "</ul>"
     return html
