@@ -10,11 +10,24 @@ export const AreasOfPark = () => {
     let html = "<ul>"
 
     for (const area of parkAreas) {
-        html += `<li id="park_area--${area.id}">${area.nameOfParkArea}</li>`
+        html += `<li class="park-card" id="park_area--${area.id}">${area.nameOfParkArea}</li>`
     }
     html += "</ul>"
     return html
 }
 
 //AreasOfPark is returning a list of the area names of the park
+
+
+//steps
+//import function from data.js that has the park area data value stored 
+//invoke that function and set it to the value of a variable
+// create a new function in this file that returns an undered list of HTML representation 
+// function should...
+//-have a variable that is equal to unordered list "<ul>"
+// - loop through the array of area objects
+//- return the name property in the form of a string 
+//-close the tag on my UL and add it to my variable
+//return the variable, which now has the UL and string of names in it
+//invoke function in main.js
 

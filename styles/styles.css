@@ -23,7 +23,7 @@
     width: 25%;
 }
 
-#park-areas {
+#parkareas {
     background-color: blueviolet;
     width: 70%;
     padding: 1rem;
@@ -37,7 +37,7 @@
     margin: 1rem;
 }
 
-#list-of-park-areas {
-    background-color: brown;
+.list-of-park-areas {
+    background-color:darkblue;
     display: flex; flex-flow: wrap;
 }

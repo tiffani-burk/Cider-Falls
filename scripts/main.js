@@ -18,11 +18,11 @@ const mainHTML  =
 <section id="park-areas">
 <h2>Park Areas</h2>
 <h3><em>Explore by direction</em></h3>
-<div class="park-card"<div
+<div class="list-of-park-areas"<div
 ${AreasOfPark()}
 </div>
 <div>
-${serviceList(service)}
+${serviceList()}
 </div>
 </section>
 `
