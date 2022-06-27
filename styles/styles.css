@@ -5,6 +5,9 @@
     align-content: center;
 }
 
+#park-areas h2{text-align: center;}
+#park-areas h3{text-align: center;}
+
 #main {
     background-color:lightgray;
 }
@@ -27,23 +30,24 @@
     line-height: 300%;
 }
 
-#parkareas {
-    background-color: blueviolet;
-    width: 70%;
-    padding: 1rem;
-    text-align: center;
-}
-
 .park-card {
     background-color: white;
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
     margin: 1rem;
     padding: 1rem;
 }
-
-.list-of-park-areas {
-    background-color:darkblue;
-    display: flex; flex-flow: wrap;
+.park-card h2 {
+    text-align: center;
 }
 
+.list-of-park-areas {
+    background-color: blue;
+    padding: 2rem;
+    display: flex; 
+    flex-flow: wrap;
+}
+
+#park-areas {
+    background-color: brown;
+}
