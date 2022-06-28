@@ -1,20 +1,30 @@
 #header {
-    background-color: aqua;
+    background-color: #D9D9D9;
     text-align: center;
     padding: 3rem;
     align-content: center;
+}
+
+#logo { 
+    float: left;
 }
 
 #park-areas h2{text-align: center;}
 #park-areas h3{text-align: center;}
 
 #main {
-    background-color:lightgray;
+    background-color:#F2F2F2;
 }
 
 #footer {
-    background-color: lightcoral;
+    background-color: #D9D9D9;
     padding: 3rem;
+    margin-top: 1rem;
+}
+
+#side-footer {
+    display: flex; flex-direction: row;
+    float: right;
 }
 
 #guest-list {
@@ -53,12 +63,9 @@
 }
 
 .list-of-park-areas {
-    background-color: blue;
+    background-color: #D9D9D9;
     padding: 2rem;
     display: flex; 
     flex-flow: wrap;
 }
 
-#park-areas {
-    background-color: brown;
-}
