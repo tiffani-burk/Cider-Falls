@@ -48,7 +48,7 @@ document.addEventListener(
     "click",
     (clickEvent) => {
         const areaClicked = clickEvent.target //targeting the name of this click event
-        console.log(clickEvent)
+    
 
         if (areaClicked.id.startsWith("area")) { //checking to see if whatever we clicked on has the ID of area
             const [, areaId] = areaClicked.id.split("--")  //splitting that the --

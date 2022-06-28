@@ -19,15 +19,26 @@
 
 #guest-list {
    border: solid black 4px;
+   background-color: white;
     padding: 1rem;
     margin: 5rem 1rem 1rem 1rem;
-    text-align: center;
     float: right;
     width: 25%;
+    text-align:justify;
+    align-content: center;
+}
+
+#guest-list h2 {
+    text-align: center;
+}
+
+#guest-list li {
+    display: flex; align-content: center;
+    padding: 1.2rem;
 }
 
 .guestName {
-    line-height: 300%;
+    line-height: 200%;
 }
 
 .park-card {
