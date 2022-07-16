@@ -1,5 +1,6 @@
 # Cider-Falls
 Hardcoded, no boilerplate code. Designed after the wireframe I created. 
+Dynamically coded. 
 [Cider-Falls-ERD.pdf](https://github.com/tiffani-burk/Cider-Falls/files/9002539/Cider-Falls-ERD.pdf)
 [Cider Falls Park Wireframe.pdf](https://github.com/tiffani-burk/Cider-Falls/files/9002540/Cider.Falls.Park.Wireframe.pdf)
 
